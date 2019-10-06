@@ -45,16 +45,16 @@ Data 1 xor Data 2
       10110101110 **000**
     - Xor division (pembagian xor)  
       10110101110000 dibagi 1011  
-      didapatkan sisa bagi = 0111  
-      ambil 3 (n-1) digit awal nya = **111 => ini adalah crc frame bit nya**
+      didapatkan sisa bagi = 0011  
+      ambil 3 (n-1) digit awal nya = **011 => ini adalah crc frame bit nya**
     - Transmitted Data => original data + crc frame bit  
-      10110101110111
+      10110101110011
 
     - Error Check (saya anggap ini untuk cek error pada        receiver)
         - Membagi transmitted data dengan generator  
-          10110101110111 / 1011  
-          maka didapatkan sisa bagi = 0001
-        - Karena sisa nya bukan 0000 maka **terjadi error**    pada data yang dikirimkan
+          10110101110011 / 1011  
+          maka didapatkan sisa bagi = 0000
+        - Karena sisa nya merupakan 0000 maka **tidak          terjadi error** pada data yang dikirimkan
 
 - b  
     Original Data : 1111111  
