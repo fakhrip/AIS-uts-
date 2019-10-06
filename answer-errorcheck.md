@@ -113,18 +113,16 @@ p4 (ambil 8 skip 8, dimulai dari p4) = XOR dari data ke **8 9 10 11 12** = XOR ?
 p1 (1) != p1data (0)   
 p2 (1) == p2data (1)  
 p3 (1) != p3data (0)  
-p4 (0) != p4data (0)  
+p4 (0) == p4data (0)  
 
 Jumlahkan semua yang tidak sama (ambil hasil pangkatnya)  
 p1 **(2^0)** = 1  
-p3 **(2^2)** = 4  
-p4 **(2^3)** = 8
-Jumlah = 1 + 4 + 8 = 13  
-maka flip bit ke 13  
+p3 **(2^2)** = 4 
+Jumlah = 1 + 4 = 5  
+maka flip bit ke 5  
   
-Dikarenakan tidak ada bit 13 yang dikirim maka data aslinya =  
 Data hamming code awal tanpa bit parity yaitu  
-00000101
+01000101
 
 ref:
 - https://www.youtube.com/watch?v=TYwrHiQ2-G4  
