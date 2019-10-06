@@ -110,7 +110,7 @@ p2 (ambil 2 skip 2, dimulai dari p2) = XOR dari data ke **2** **3** ~~4 5~~ **6*
 p3 (ambil 4 skip 4, dimulai dari p3) = XOR dari data ke **4 5 6 7** ~~8 9 10 11~~ **12** = XOR ?0001 = 1  
 p4 (ambil 8 skip 8, dimulai dari p4) = XOR dari data ke **8 9 10 11 12** = XOR ?0101 = 0
 
-p1 (1) != p1data (0)   
+p1 (0) == p1data (0)   
 p2 (1) == p2data (1)  
 p3 (1) != p3data (0)  
 p4 (0) == p4data (0)  
