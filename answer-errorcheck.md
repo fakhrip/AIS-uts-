@@ -63,7 +63,7 @@ Data 1 xor Data 2
     - karena generator nya 4 bit maka tambahkan 3 (n-1) bit    0 ke original data  
       1111111 **000**
     - Xor division (pembagian xor)  
-      1111111 dibagi 1001  
+      1111111000 dibagi 1001  
       didapatkan sisa bagi = 0001  
       ambil 3 (n-1) digit awal nya = **001 => ini adalah crc frame bit nya**
     - Transmitted Data => original data + crc frame bit  
