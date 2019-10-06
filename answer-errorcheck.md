@@ -24,7 +24,7 @@ Ref: https://www.youtube.com/watch?v=IUqmROyaQf4
 Fun vids: https://www.youtube.com/watch?v=MgkhrBSjhag
 
 Example :
-![Example](parity2dsample.png)
+![Example](./parity2dsample.png)
 
 # No 3  
 Data 1: 10110001101110110101101111010100  
