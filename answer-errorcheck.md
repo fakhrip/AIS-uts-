@@ -105,7 +105,7 @@ Data 12 = 1
 
 Cek terlebih dahulu error nya
 
-p1 (ambil 1 skip 1, dimulai dari p1) = XOR dari data ke **1** ~~2~~ **3** ~~4~~ **5** ~~6~~ **7** ~~8~~ **9** ~~10~~ **11** ~~12~~ = XOR ?000010 = 1  
+p1 (ambil 1 skip 1, dimulai dari p1) = XOR dari data ke **1** ~~2~~ **3** ~~4~~ **5** ~~6~~ **7** ~~8~~ **9** ~~10~~ **11** ~~12~~ = XOR ?000000 = 0  
 p2 (ambil 2 skip 2, dimulai dari p2) = XOR dari data ke **2** **3** ~~4 5~~ **6** **7** ~~8 9~~ **10** **11** ~~12~~ = XOR ?00010 = 1  
 p3 (ambil 4 skip 4, dimulai dari p3) = XOR dari data ke **4 5 6 7** ~~8 9 10 11~~ **12** = XOR ?0001 = 1  
 p4 (ambil 8 skip 8, dimulai dari p4) = XOR dari data ke **8 9 10 11 12** = XOR ?0101 = 0
@@ -115,14 +115,14 @@ p2 (1) == p2data (1)
 p3 (1) != p3data (0)  
 p4 (0) == p4data (0)  
 
-Jumlahkan semua yang tidak sama (ambil hasil pangkatnya)  
-p1 **(2^0)** = 1  
+Jumlahkan semua yang tidak sama (ambil hasil pangkatnya)
 p3 **(2^2)** = 4 
-Jumlah = 1 + 4 = 5  
-maka flip bit ke 5  
+Jumlah = 4  
+maka flip bit ke 4
   
+Karena bit ke 4 adalah bit parity jadi bit data awal tidak berubah  
 Data hamming code awal tanpa bit parity yaitu  
-01000101
+00000101
 
 ref:
 - https://www.youtube.com/watch?v=TYwrHiQ2-G4  
